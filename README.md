@@ -16,5 +16,4 @@ This README file is for weekly challenge assignment #2 for the UC Berkeley Codin
 
 * I don't have past coding experience, but I did include a link to my first weekly challenge website, as well as my last place of work and my general GitHub page.
 
-* Finally the site itself should be reachable at https://danielfmckay.github.io/Dan-McKay-Personal-Portfolio/
-  (at least whenever it gets through GitHub's deployment queue)
+* Finally, the live site should be reachable at https://danielfmckay.github.io/Dan-McKay-Personal-Portfolio/
