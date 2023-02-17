@@ -1,0 +1,10 @@
+/* placeholder file */
+/* use variables.css after the reset.css but before style.css. I think. */
+
+:root {
+    --dark: #0a7261;
+    --light: #fff6da;
+    --navilink: #b3d2ff;
+    --mid: rgb(90, 180, 184);
+    --lightest: rgb(211, 255, 231);
+}
