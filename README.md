@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/123746582/219535052-d9351047-aa6a-49d6-ae03-c83f924a5614.png)
+![image](https://user-images.githubusercontent.com/123746582/229044407-3cc4c4c3-0f18-4c02-a58f-f9a3149bcb7f.png)
 
 # Dan-McKay-Personal-Portfolio
 
