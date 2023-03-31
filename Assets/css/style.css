@@ -1,21 +1,28 @@
 /* style sheet here */
-* {
+/* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} */
 
 /* header elements */
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--dark);
-    color: var(--light);
+
+html {
+    background: #5AB4B8;
 }
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, #0a7261, #2caf99);
+    color: rgb(241, 243, 221);
+    padding: 20px;
+}
+
 
 header h1 {
     display: inline-block;
     font-size: 48px;
+    margin-left: 1rem;
 }
 
 
@@ -34,8 +41,14 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    background-color: var(--dark);
-    padding: 5px;
+    background: linear-gradient(#0a7261,#13a18a);
+    border: 1px solid #096455;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+#mainStyling {
+    background: var(--mid);
 }
 
 a {
@@ -49,13 +62,10 @@ p {
 
 /* This is essentially the "hero" image */
 .splash-image {
-    height: 360px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../Images/hero-island-image.jpg");
+    height: 18rem;
+    background-image: url("../images/hero-island-image.jpg");
     background-size: cover;
     background-position: center;
-    margin-bottom: 25px;
 }
 
 .title-card {
@@ -66,20 +76,17 @@ p {
     color: var(--light);
     margin-left: 75%;
     margin-right: 20px;
-    background-color: var(--mid);
 }
-.title-card span {    
-    background-color: var(--mid);}
 
 .title-card h2::after {
     content: '🏝️';
   }
 
   body {
-    background-color: var(--mid);
     color: var(--light);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
+
 /* contents section classes */
 .content {
     width: 100%;
@@ -88,8 +95,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: left;
     color: var(--light);
 }
@@ -116,13 +123,12 @@ main {
 
 /* these are the different info boxes and their parameters */
 .about-me {
-    margin: 12px;
+
     padding: 10px;
-    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     flex-wrap: wrap;
     width: 600px;
     margin-bottom: 20px;
-    background-color: var(--dark);
 }
 .about-me h2 {
     font-size: 200%;
@@ -130,12 +136,11 @@ main {
 
 .tech-work {
     float: left;
-    margin: 12px;
+
     padding: 10px;
-    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     flex-wrap: wrap;
     width: 500px;
-    background-color: var(--dark);
 }
 
 .tech-work h2 {
@@ -144,12 +149,11 @@ main {
 
 .resume {    
     text-align: center;
-    margin: 12px;
-    padding: 10px;
-    height: 300px;
+
+    height: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     flex-wrap: wrap;
     width: 500px;
-    background-color: var(--dark);
     }
 
 .resume h2 {
@@ -164,20 +168,43 @@ main {
 
 .contact-me {
     text-align: center;
-    font-size: 200%;
-    margin: 12px;
-    padding: 10px;
-    height: 300px;
+    font-size: 180%;
+    height: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     flex-wrap: wrap;
     width: 600px;
-    background-color: var(--dark);
 } 
 
 
 .contacts {
     text-align: left;
-    font-size: 80%;
     color: var(--navilink);
+}
+
+#sectionHeader {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: rgb(235, 229, 197);
+}
+
+.cjImage {
+    border-radius: 10px;
+}
+
+.section-tiles {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #0a7261, #209b86);
+    min-height: 300px;
+    height: fit-content;
+    border: 1px solid #096455;
+}
+
+.cjLink {
+    margin-bottom: 2px;
 }
 
 footer {
@@ -186,11 +213,14 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: var(--dark);
     color: var(--light);
 }
+
+.footerStyle {
+    background: linear-gradient(to right, #0a7261, #209b86);
+}
+
 
 footer h2 {
     font-size: 20px;
 }
-
