@@ -63,7 +63,7 @@ p {
 /* This is essentially the "hero" image */
 .splash-image {
     height: 18rem;
-    background-image: url("../images/hero-island-image.jpg");
+    background-image: url("../Images/hero-island-image.jpg");
     background-size: cover;
     background-position: center;
 }
