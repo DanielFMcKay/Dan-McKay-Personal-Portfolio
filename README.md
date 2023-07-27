@@ -3,7 +3,7 @@ by Daniel McKay
 
 ![image](https://github.com/DanielFMcKay/Dan-McKay-Personal-Portfolio/assets/123746582/5ed1c34a-1a40-425e-ad75-5e916fbbdba8)
 
-###Overview
+### Overview
 * Although most of this was written in Week 2, this is presently an updated version.
 
 * This README file is for weekly challenge assignment #2 for the UC Berkeley Coding Boot Camp, in which I create a website from scratch using html and css and image assets.
