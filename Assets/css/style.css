@@ -47,6 +47,11 @@ header nav ul li {
     border-radius: 4px;
 }
 
+header nav ul li:hover {
+    color: #ffffff;
+    background: linear-gradient(#0a7261,#70d6c5);
+}
+
 #mainStyling {
     background: var(--mid);
 }
@@ -63,9 +68,17 @@ p {
 /* This is essentially the "hero" image */
 .splash-image {
     height: 18rem;
-    background-image: url("../Images/hero-island-image.jpg");
+    background-image: url("../images/hero-island-image.jpg");
     background-size: cover;
     background-position: center;
+    animation: appear 3s ease forwards;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 0.95;
+    }
 }
 
 .title-card {
@@ -114,12 +127,53 @@ p {
     margin: 5px;
 }
 
+.weather-app {
+    border-radius: 6px;
+    margin: 4px 0;
+    margin-top: 8px;
+}
+
+.weather-app h2 {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.weather-app-header {
+    color: #f2f2f2f2;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    padding: 4px;
+    text-align: center;
+    background: linear-gradient(174deg, #2452a7, #3b72e0 20%, #5183e9 30%, #dadaec 96%);
+    animation: appear 1.5s ease forwards;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 0.95;
+    }
+}
+
+.weather-app-header:hover {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 3px;
+    margin-bottom: 1px;
+    background: linear-gradient(174deg, #548bf1, #3f79ed 20%, #5488f1 30%, #e4e4f7 96%);
+    border: 2px solid #b0b0b0;
+}
 
 
 main {
     margin-bottom: 25px;
 }
 
+.BBBImage {
+    border-radius: 6px;
+    margin-top: 6px;
+}
 
 /* these are the different info boxes and their parameters */
 .about-me {
@@ -224,3 +278,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
