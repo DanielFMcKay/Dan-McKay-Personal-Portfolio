@@ -71,14 +71,6 @@ p {
     background-image: url("../images/hero-island-image.jpg");
     background-size: cover;
     background-position: center;
-    animation: appear 3s ease forwards;
-}
-@keyframes appear {
-    from {
-        opacity: 0;
-    } to {
-        opacity: 0.95;
-    }
 }
 
 .title-card {
