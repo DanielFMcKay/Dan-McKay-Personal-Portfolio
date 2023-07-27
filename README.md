@@ -1,8 +1,12 @@
-![image](https://user-images.githubusercontent.com/123746582/229044407-3cc4c4c3-0f18-4c02-a58f-f9a3149bcb7f.png)
-
 # Dan-McKay-Personal-Portfolio
+by Daniel McKay
 
-This README file is for weekly challenge assignment #2 for the UC Berkeley Coding Boot Camp, in which I create a website from scratch using html and css and image assets.
+![image](https://github.com/DanielFMcKay/Dan-McKay-Personal-Portfolio/assets/123746582/5ed1c34a-1a40-425e-ad75-5e916fbbdba8)
+
+###Overview
+* Although most of this was written in Week 2, this is presently an updated version.
+
+* This README file is for weekly challenge assignment #2 for the UC Berkeley Coding Boot Camp, in which I create a website from scratch using html and css and image assets.
 
 * Per the challenge instructions, I created a portfolio site containing my name, a recent photo, and self-explanatory sections for bio, contact info, work, and resume
 
@@ -17,3 +21,5 @@ This README file is for weekly challenge assignment #2 for the UC Berkeley Codin
 * I don't have past coding experience, but I did include a link to my first weekly challenge website, as well as my last place of work and my general GitHub page.
 
 * Finally, the live site should be reachable at https://danielfmckay.github.io/Dan-McKay-Personal-Portfolio/
+
+(c) 2023 Dan McKay
