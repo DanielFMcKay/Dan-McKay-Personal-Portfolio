@@ -1,7 +1,10 @@
 # Dan-McKay-Personal-Portfolio
 by Daniel McKay
 
-![image](https://github.com/DanielFMcKay/Dan-McKay-Personal-Portfolio/assets/123746582/5ed1c34a-1a40-425e-ad75-5e916fbbdba8)
+![image](https://github.com/DanielFMcKay/Dan-McKay-Personal-Portfolio/assets/123746582/18f10b1a-e45e-484f-ab7d-b22837b0c74b)
+
+### [Live Deployed Site](https://danielfmckay.github.io/Dan-McKay-Personal-Portfolio/)
+
 
 ### Overview
 * Although most of this was written in Week 2, this is presently an updated version.
